@@ -42,7 +42,7 @@ class RegistrationForm extends FormRequest
             'password' => bcrypt($this->password)
         ]);
 
-        Mail::to($user)->send(new WelcomeAgain($user));
+//        Mail::to($user)->send(new WelcomeAgain($user));
 
         auth()->login($user);   // \Auth::login($user);
     }
