@@ -32,7 +32,7 @@
             <div class="text-center dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <img src="{{ \App\Helpers\Common::getGravatar(auth()->user()->email,100) }}" class="img-circle" width="100" height="100">
-                    <h5 class="text-center text-white">{{ auth()->user()->name }}<i class="fa fa-angle-down"></i></h5>
+                    <h5 class="text-center text-white">{{ auth()->user()->name }}&nbsp;<i class="fa fa-angle-down"></i></h5>
                 </a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="/profile">Profile</a></li>

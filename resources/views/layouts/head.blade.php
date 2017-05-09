@@ -7,9 +7,9 @@
         <link rel="icon" type="image/png" href="/favicon.ico">
 
         <!--Google Font link-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+        {{--<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">--}}
+        {{--<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">--}}
+        {{--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">--}}
 
 
         <link rel="stylesheet" href="/css/slick.css">

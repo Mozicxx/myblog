@@ -14,10 +14,13 @@
         </div>
         </div>
     @endif
-    {{ $post->content }}
+    <h5>
+        {{ $post->content }}
+    </h5>
 
     <hr>
 
+    @if (count($post->comments))
     <div class="comments">
     	<ul class="list-group">
     		@foreach ($post->comments as $comment)
@@ -30,7 +33,8 @@
     </div>
 
     <hr>
-
+    @endif
+    @if (auth()->check())
     <div class="card">
     	<div class="card-block">
     		<form action="/posts/{{ $post->id }}/comments" method="POST">
@@ -45,5 +49,6 @@
 			@include ('layouts.errors')
     	</div>
     </div>
+    @endif
   </div>
 @endsection

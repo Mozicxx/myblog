@@ -26,7 +26,7 @@
                         </h2>
                         <div class="separator_left">
                         </div>
-                        <div class="row">
+                        <div class="row m-bottom-40">
                             <div class="col-sm-9 blog-main">
                                 @yield ('content')
                             </div>
